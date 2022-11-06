@@ -1,1 +1,4 @@
-<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert(1)"></xss>
+#sensitive-information{
+ font-family:poc;
+}
+li {list-style-image: url("javascript:alert('XSS')");}
