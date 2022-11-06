@@ -1,4 +1,3 @@
 #sensitive-information{
- font-family:poc;
+ list-style-image: url("javascript:alert('XSS')");
 }
-li {list-style-image: url("javascript:alert('XSS')");}
