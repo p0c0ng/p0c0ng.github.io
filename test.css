@@ -1,3 +1,3 @@
 body{
- background:url("javascript:alert('XSS')")
+ background:url("javascript:alert('XSS')");
 }
